@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fredoka:wght@500;600&family=Inter:wght@400;700;800&family=Lexend+Deca&family=Nabla&family=Overpass:wght@400;700&family=Raleway:wght@300;400;500;600;700;800;900&family=Red+Hat+Display:wght@500;700;900&family=Roboto+Mono:wght@500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+/* CONSTRUCTION DESKTOP-DESIGN */
+
+.box {
+   
+    width: 410px;
+    margin: auto;
+    margin-top: 13rem;
+    padding: 2rem;
+    font-family: "Overpass", "sans-serif";
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    border-radius: 2rem;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 12%, 24%);
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+}
+
+i {
+    width: 17px;
+    height: 16px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.rating {
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(216, 12%, 24%);
+    text-align: center; 
+    font-size: 0.938rem;
+    width: 3rem;
+    height: 3rem; 
+    padding: 0.2rem;
+    margin-top: 1rem; 
+    border: none; 
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+.rating:hover {
+    background-color: hsl(217, 12%, 63%);
+    color:hsl(0, 0%, 100%); 
+}
+
+.rating:focus {
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+}
+
+#rating:focus {
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+}
+
+.btn--modifSub {
+    width: 21rem;
+    padding: 0.9rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    cursor:pointer;
+}
+
+.btn--link {
+    text-decoration: none;
+    color:white;
+}
+
+.btn--link:hover {
+    color:hsl(25, 97%, 53%);
+    
+}
+
+.btn--modifSub:hover {
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%); 
+}
+
+/* CONSTRUCTION THANK-YOU-STATE */
+
+.box--page2 {
+    width: 430px;
+}
+
+.thank {
+    text-align: center;
+    margin-bottom: 1.5rem;
+} 
+
+.box__ratingResult--design {
+    width: 13.125rem;
+    margin: auto;
+    color: hsl(25, 97%, 53%);
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0.5rem;
+    background-color: hsl(216, 12%, 24%);
+    border-radius: 2rem; 
+}
+
+.box__heading--design {
+    text-align: center;
+    
+}
+
+.box__textThank--design {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.attribution {
+    color: hsl(216, 12%, 54%);
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 375px) {
+    .box {
+        width: 340px;
+        margin: auto;
+        margin-top: 6rem;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    p {
+        width: 330px;
+    }
+
+    .btn--modifSub {
+        width: 19rem;
+    }
+
+    .box__textThank--design {
+        padding-right: 1.3rem;
+    }
+}
+
